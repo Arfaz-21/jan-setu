@@ -1,0 +1,74 @@
+[
+  {
+    "provision_key": "SAKALA_SEC_5",
+    "provision_number": "Section 5",
+    "act_name": "The Karnataka Guarantee of Services to Citizens Act, 2011 (Karnataka Act No. 01 of 2012)",
+    "title": "Right to obtain service within the stipulated time limit",
+    "exact_verified_text": "5. Right to obtain service within the stipulated time limit.— (1) Every eligible person shall have the right to obtain the citizen services within the stipulated time limit in accordance with the provisions of this Act. (2) The Designated Officer shall provide the service or reject the application within the stipulated time limit specified in the Schedule.",
+    "source_document": "Karnataka Gazette Extraordinary Part IV-A, Act No. 01 of 2012",
+    "amendment_reference": "Amended vide Karnataka Act No. 23 of 2014 & Karnataka Act No. 11 of 2024",
+    "verification_date": "2026-09-01",
+    "verification_status": "VERIFIED",
+    "applies_to": ["delay", "default"]
+  },
+  {
+    "provision_key": "SAKALA_SEC_6",
+    "provision_number": "Section 6",
+    "act_name": "The Karnataka Guarantee of Services to Citizens Act, 2011 (Karnataka Act No. 01 of 2012)",
+    "title": "Acknowledgement of application with GSC number",
+    "exact_verified_text": "6. Providing citizen services within the stipulated time limit.— (1) An application for obtaining a citizen service shall be made to the Designated Officer or any other official authorized by him. (2) The Designated Officer or the official authorized by him shall acknowledge the receipt of the application and issue an acknowledgment containing a unique Guarantee of Services to Citizens (GSC) number specifying the date by which the service shall be provided.",
+    "source_document": "Karnataka Gazette Notification DPAR 19 SCR 2012",
+    "amendment_reference": "Incorporated digital receipt mandates under Seva Sindhu & Sakala Rules",
+    "verification_date": "2026-09-01",
+    "verification_status": "VERIFIED",
+    "applies_to": ["gsc_tracking"]
+  },
+  {
+    "provision_key": "SAKALA_SEC_8",
+    "provision_number": "Section 8",
+    "act_name": "The Karnataka Guarantee of Services to Citizens Act, 2011 (Karnataka Act No. 01 of 2012)",
+    "title": "Appeal to First Appellate Authority",
+    "exact_verified_text": "8. Appeal to the Competent Officer (First Appellate Authority).— (1) Any person whose application is rejected under sub-section (2) of Section 5 or who does not receive the citizen service within the stipulated time limit may file an appeal before the Competent Officer / First Appellate Authority within thirty days from the date of receipt of the order of rejection or from the expiry of the stipulated time limit: Provided that the Competent Officer may admit an appeal after the expiry of the thirty days if satisfied that the appellant was prevented by sufficient cause from filing the appeal in time. (2) The Competent Officer shall dispose of the appeal within thirty days of its receipt.",
+    "source_document": "Karnataka Act No. 01 of 2012, amended by Act 23 of 2014",
+    "amendment_reference": "Section 8 substantive revision under Act 23 of 2014; timeline for disposal strictly mandated within 30 working days",
+    "verification_date": "2026-09-01",
+    "verification_status": "VERIFIED",
+    "applies_to": ["first_appeal"]
+  },
+  {
+    "provision_key": "SAKALA_SEC_9",
+    "provision_number": "Section 9",
+    "act_name": "The Karnataka Guarantee of Services to Citizens Act, 2011 (Karnataka Act No. 01 of 2012)",
+    "title": "Second Appeal to Appellate Authority",
+    "exact_verified_text": "9. Second Appeal.— (1) Any person aggrieved by the order of the Competent Officer under Section 8 or where the Competent Officer fails to decide the appeal within thirty days, may prefer a second appeal to the Appellate Authority within thirty days from the date of the decision or from the date of expiry of the period specified in sub-section (2) of Section 8. (2) The Appellate Authority shall decide the second appeal within thirty days of its filing.",
+    "source_document": "Karnataka Act No. 01 of 2012",
+    "amendment_reference": "Procedural electronic filing enabled vide Sakala E-Appeals Portal Protocol 2024",
+    "verification_date": "2026-09-01",
+    "verification_status": "VERIFIED",
+    "applies_to": ["second_appeal"]
+  },
+  {
+    "provision_key": "SAKALA_SEC_13",
+    "provision_number": "Section 13",
+    "act_name": "The Karnataka Guarantee of Services to Citizens Act, 2011 (Karnataka Act No. 01 of 2012)",
+    "title": "Penalty and Compensatory Cost for delay",
+    "exact_verified_text": "13. Penalty and Compensatory Cost.— (1) Where the Appellate Authority is of the opinion that the Designated Officer has failed to provide service without sufficient and reasonable cause, it may impose a compensatory cost at the rate of twenty rupees per day for the period of delay, subject to a maximum of five hundred rupees, which shall be payable to the applicant as compensation. (2) The penalty so imposed shall be deducted from the salary of the designated officer or defaulting official in accordance with the prescribed procedure.",
+    "source_document": "Karnataka Act No. 01 of 2012",
+    "amendment_reference": "Section 13 statutory cap: Rs. 20/day delay, maximum Rs. 500 compensatory cost",
+    "verification_date": "2026-09-01",
+    "verification_status": "VERIFIED",
+    "applies_to": ["compensation", "penalty"]
+  },
+  {
+    "provision_key": "SAKALA_PROP_2026_AMEND",
+    "provision_number": "Proposed Amendment 2026 Clause 14",
+    "act_name": "Karnataka Guarantee of Services to Citizens (Draft Amendment Bill 2026)",
+    "title": "Enhanced Electronic Auto-Escalation & Digital Default Penalty",
+    "exact_verified_text": "Draft clause under legislative review proposing automated transfer of unresolved service petitions directly to Appellate Authority on T+1 day following expiry of stipulated timeline.",
+    "source_document": "Draft Legislative Briefing Note DPAR-2026",
+    "amendment_reference": "Pending final notification and enactment by Karnataka Legislature",
+    "verification_date": "2026-09-01",
+    "verification_status": "UNVERIFIED",
+    "applies_to": ["auto_escalation_future"]
+  }
+]

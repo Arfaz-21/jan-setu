@@ -1,0 +1,79 @@
+[
+  {
+    "rule_id": "RULE-INC-VAL-01",
+    "scheme_id": "SCH-BCWD-01",
+    "document_type": "Income Certificate",
+    "rule_description": "Income Certificate in Karnataka issued under Form No. 7/F is valid for five years from the date of issue. Must not be expired as on application date.",
+    "source_url": "https://nadakacheri.karnataka.gov.in",
+    "government_order_or_notification": "Govt Order No. RD 187 LGP 2013 & RD 07 LGP 2015",
+    "relevant_clause": "Clause 4(a) - Validity of Income Certificate extended to 5 years",
+    "validity_years": 5,
+    "last_verified_date": "2026-08-15",
+    "verification_status": "DEMO_VERIFIED",
+    "severity": "CRITICAL"
+  },
+  {
+    "rule_id": "RULE-INC-LIM-02",
+    "scheme_id": "SCH-BCWD-01",
+    "document_type": "Income Certificate",
+    "rule_description": "Annual household income stated in the certificate must not exceed Rs. 2,50,000 for Categories 2A, 2B, 3A, 3B.",
+    "source_url": "https://ssp.postmatric.karnataka.gov.in",
+    "government_order_or_notification": "Govt Order No. BCW 142 BMS 2025",
+    "relevant_clause": "Clause 2.3 - Income Ceiling Criteria",
+    "max_income_limit": 250000,
+    "last_verified_date": "2026-08-15",
+    "verification_status": "DEMO_VERIFIED",
+    "severity": "CRITICAL"
+  },
+  {
+    "rule_id": "RULE-CST-RD-03",
+    "scheme_id": "SCH-BCWD-01",
+    "document_type": "Caste Certificate",
+    "rule_description": "Caste Certificate must contain a valid 15-character Nadakacheri RD/GSC barcode number format (e.g. RD00382910293).",
+    "source_url": "https://nadakacheri.karnataka.gov.in",
+    "government_order_or_notification": "Revenue Dept Notification RD 42 LGP 2018",
+    "relevant_clause": "Standard Atalji Janasnehi Kendra Barcode Protocol",
+    "pattern_check": "^RD[0-9]{11,13}$",
+    "last_verified_date": "2026-08-15",
+    "verification_status": "DEMO_VERIFIED",
+    "severity": "CRITICAL"
+  },
+  {
+    "rule_id": "RULE-NAM-MAT-04",
+    "scheme_id": "ALL_SCHEMES",
+    "document_type": "Cross_Document",
+    "rule_description": "Applicant full name across Identity Document (Aadhaar), Caste Certificate, and Income Certificate must have high similarity (fuzzy ratio >= 85). Variations should prompt citizen verification before portal submission to avoid rejection at scholarship approval.",
+    "source_url": "https://ssp.postmatric.karnataka.gov.in/guidelines",
+    "government_order_or_notification": "SSP Verification Circular No. ED/SSP/MISC/2024",
+    "relevant_clause": "Paragraph 5 - Identity Mismatch Protocol",
+    "min_similarity_threshold": 85,
+    "last_verified_date": "2026-08-15",
+    "verification_status": "DEMO_VERIFIED",
+    "severity": "WARNING"
+  },
+  {
+    "rule_id": "RULE-ADH-MSK-05",
+    "scheme_id": "ALL_SCHEMES",
+    "document_type": "Aadhaar Card",
+    "rule_description": "In compliance with Aadhaar Regulations and Privacy safeguards, only the last four digits of Aadhaar should be displayed or stored; the first eight digits must be masked.",
+    "source_url": "https://uidai.gov.in/ecosystem/authentication/masked-aadhaar.html",
+    "government_order_or_notification": "Aadhaar (Targeted Delivery of Financial and other Subsidies, Benefits and Services) Act, 2016 - Section 29",
+    "relevant_clause": "Section 29(4) - Masking of Aadhaar number",
+    "last_verified_date": "2026-08-15",
+    "verification_status": "DEMO_VERIFIED",
+    "severity": "CRITICAL"
+  },
+  {
+    "rule_id": "RULE-SCST-VAL-06",
+    "scheme_id": "SCH-SWD-02",
+    "document_type": "Caste Certificate",
+    "rule_description": "SC/ST Caste Certificates issued in Form D / Form E in Karnataka are valid for lifetime unless revoked by the District Caste Verification Committee.",
+    "source_url": "https://sw.kar.nic.in",
+    "government_order_or_notification": "Karnataka SC, ST and other BC (Reservation of Appointments, etc.) Act 1990 & Rules 1992",
+    "relevant_clause": "Rule 3B - Lifetime Validity of SC/ST Certificates",
+    "validity_years": null,
+    "last_verified_date": "2026-08-15",
+    "verification_status": "DEMO_VERIFIED",
+    "severity": "CRITICAL"
+  }
+]

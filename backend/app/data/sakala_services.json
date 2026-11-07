@@ -1,0 +1,72 @@
+[
+  {
+    "service_id": "SAK-REV-01",
+    "service_name": "Issue of Income Certificate (Form 7/F)",
+    "kannada_name": "ಆದಾಯ ಪ್ರಮಾಣಪತ್ರ ವಿತರಣೆ (ನಮೂನೆ ೭/ಎಫ್)",
+    "department": "Revenue Department",
+    "stipulated_timeline_days": 21,
+    "timeline_unit": "working_days",
+    "designated_officer": "Tahsildar / Deputy Tahsildar (Nadakacheri)",
+    "first_appellate_authority": "Assistant Commissioner of the Sub-Division",
+    "second_appellate_authority": "Deputy Commissioner of the District",
+    "source_reference": "Karnataka Sakala Services Schedule Notification No. DPAR 19 SCR 2012",
+    "last_verified_date": "2026-08-20",
+    "verification_status": "DEMO_VERIFIED"
+  },
+  {
+    "service_id": "SAK-REV-02",
+    "service_name": "Issue of Caste Certificate (Cat-I, 2A, 2B, 3A, 3B, SC/ST)",
+    "kannada_name": "ಜಾತಿ ಪ್ರಮಾಣಪತ್ರ ವಿತರಣೆ",
+    "department": "Revenue Department",
+    "stipulated_timeline_days": 21,
+    "timeline_unit": "working_days",
+    "designated_officer": "Tahsildar",
+    "first_appellate_authority": "Assistant Commissioner",
+    "second_appellate_authority": "Deputy Commissioner",
+    "source_reference": "Karnataka Sakala Services Notification No. DPAR 19 SCR 2012, Item 4",
+    "last_verified_date": "2026-08-20",
+    "verification_status": "DEMO_VERIFIED"
+  },
+  {
+    "service_id": "SAK-REV-03",
+    "service_name": "Mutation / Khata Transfer for Agricultural Land (Bhoomi)",
+    "kannada_name": "ಕೃಷಿ ಜಮೀನಿನ ಪೌತಿ/ಖಾತಾ ಬದಲಾವಣೆ (ಭೂಮಿ)",
+    "department": "Revenue Department",
+    "stipulated_timeline_days": 30,
+    "timeline_unit": "working_days",
+    "designated_officer": "Revenue Inspector / Shirastedar",
+    "first_appellate_authority": "Tahsildar",
+    "second_appellate_authority": "Assistant Commissioner",
+    "source_reference": "Bhoomi Monitoring Cell Sakala Notification Item 14",
+    "last_verified_date": "2026-08-20",
+    "verification_status": "DEMO_VERIFIED"
+  },
+  {
+    "service_id": "SAK-SWD-04",
+    "service_name": "Sanction of Post-Matric Scholarship (SC/ST/OBC)",
+    "kannada_name": "ಮೆಟ್ರಿಕ್ ನಂತರದ ವಿದ್ಯಾರ್ಥಿವೇತನ ಮಂಜೂರಾತಿ",
+    "department": "Social Welfare & Backward Classes Departments",
+    "stipulated_timeline_days": 45,
+    "timeline_unit": "working_days",
+    "designated_officer": "Taluk Social Welfare Officer / BCW Officer",
+    "first_appellate_authority": "District Social Welfare Officer",
+    "second_appellate_authority": "Director, Social Welfare Department",
+    "source_reference": "Social Welfare Sakala Charter Notification No. SWD 48 SSS 2014",
+    "last_verified_date": "2026-08-20",
+    "verification_status": "DEMO_VERIFIED"
+  },
+  {
+    "service_id": "SAK-FCS-05",
+    "service_name": "Modification / Addition of Member in Ration Card",
+    "kannada_name": "ಪಡಿತರ ಚೀಟಿಯಲ್ಲಿ ಹೊಸ ಸದಸ್ಯರ ಹೆಸರು ಸೇರ್ಪಡೆ/ತಿದ್ದುಪಡಿ",
+    "department": "Food, Civil Supplies & Consumer Affairs",
+    "stipulated_timeline_days": 15,
+    "timeline_unit": "working_days",
+    "designated_officer": "Food Shirastedar / Tahsildar",
+    "first_appellate_authority": "Assistant Director of Food & Civil Supplies",
+    "second_appellate_authority": "Deputy Commissioner / Joint Director",
+    "source_reference": "Food & Civil Supplies Sakala Charter 2013, Item 6",
+    "last_verified_date": "2026-08-20",
+    "verification_status": "DEMO_VERIFIED"
+  }
+]

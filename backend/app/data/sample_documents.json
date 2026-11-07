@@ -1,0 +1,94 @@
+{
+  "synthetic_citizen": {
+    "name": "Mohammed Arfaz",
+    "district": "Bengaluru Urban",
+    "taluk": "Bengaluru North",
+    "category": "Cat-IIB (Muslim OBC)",
+    "annual_income": 120000,
+    "phone": "+91 98765 43210"
+  },
+  "sample_documents": [
+    {
+      "id": "doc-demo-inc-01",
+      "filename": "Karnataka_Income_Certificate_RD00382910293.pdf",
+      "document_type": "Income Certificate",
+      "extracted_data": {
+        "full_name": "Mohammed Arfaz",
+        "certificate_number": "RD00382910293",
+        "issue_date": "2019-01-10",
+        "expiry_date": "2024-01-09",
+        "issuing_authority": "Tahsildar, Bengaluru North Taluk",
+        "annual_income": 120000,
+        "applicant_category": "Cat-IIB",
+        "raw_text": "GOVERNMENT OF KARNATAKA\nREVENUE DEPARTMENT - ATALJI JANASNEHI KENDRA (NADAKACHERI)\nINCOME CERTIFICATE (FORM NO. 7/F)\nCertificate Number: RD00382910293\nThis is to certify that Sri/Kum MOHAMMED ARFAZ son/daughter of Abdul Raheem residing at No. 42, 3rd Cross, RT Nagar, Bengaluru North has an annual family income of Rs. 1,20,000 (Rupees One Lakh Twenty Thousand Only) from all sources.\nDate of Issue: 10/01/2019\nValid up to: 09/01/2024 (5 Years from date of issue)\nIssuing Authority: Tahsildar, Bengaluru North Taluk, Karnataka"
+      },
+      "ocr_confidence": {
+        "full_name": 0.96,
+        "certificate_number": 0.98,
+        "issue_date": 0.95,
+        "expiry_date": 0.94,
+        "issuing_authority": 0.92,
+        "annual_income": 0.97
+      },
+      "manual_overrides": {},
+      "is_synthetic": true
+    },
+    {
+      "id": "doc-demo-cst-02",
+      "filename": "Karnataka_Caste_Certificate_RD00192847291.pdf",
+      "document_type": "Caste Certificate",
+      "extracted_data": {
+        "full_name": "Mohd Arfaz",
+        "certificate_number": "RD00192847291",
+        "issue_date": "2023-05-14",
+        "expiry_date": null,
+        "issuing_authority": "Tahsildar, Bengaluru North Taluk",
+        "applicant_category": "Cat-IIB (Muslim)",
+        "raw_text": "GOVERNMENT OF KARNATAKA\nREVENUE DEPARTMENT\nCASTE CERTIFICATE (FORM D)\nCertificate No: RD00192847291\nThis is to certify that MOHD ARFAZ son of Abdul Raheem belongs to Muslim Category-II(B) under Backward Classes.\nDate of Issue: 14/05/2023\nIssued by: Tahsildar, Bengaluru North"
+      },
+      "ocr_confidence": {
+        "full_name": 0.95,
+        "certificate_number": 0.97,
+        "issue_date": 0.96,
+        "issuing_authority": 0.91
+      },
+      "manual_overrides": {},
+      "is_synthetic": true
+    },
+    {
+      "id": "doc-demo-adh-03",
+      "filename": "Aadhaar_Card_Masked_Sample.pdf",
+      "document_type": "Aadhaar Card",
+      "extracted_data": {
+        "full_name": "Mohammed Arfaz",
+        "certificate_number": "XXXX-XXXX-8921",
+        "issue_date": "2018-09-20",
+        "expiry_date": null,
+        "issuing_authority": "UIDAI (Govt. of India)",
+        "raw_text": "UNIQUE IDENTIFICATION AUTHORITY OF INDIA\nName: Mohammed Arfaz\nDOB: 15/08/2003\nGender: Male\nAadhaar Number: XXXX XXXX 8921\nAddress: No 42, 3rd Cross, RT Nagar, Bengaluru North, Karnataka - 560032"
+      },
+      "ocr_confidence": {
+        "full_name": 0.98,
+        "certificate_number": 0.99,
+        "issue_date": 0.92,
+        "issuing_authority": 0.97
+      },
+      "manual_overrides": {},
+      "is_synthetic": true
+    }
+  ],
+  "sample_sakala_application": {
+    "gsc_number": "REV/2026/0482910",
+    "service_id": "SAK-REV-01",
+    "service_name": "Issue of Income Certificate (Form 7/F)",
+    "applicant_name": "Mohammed Arfaz",
+    "submission_date": "2026-09-10",
+    "configured_timeline_days": 21,
+    "timeline_unit": "working_days",
+    "status": "PENDING",
+    "status_source": "MANUAL_ENTRY",
+    "office_name": "Nadakacheri, Yelahanka / Bengaluru North",
+    "first_appellate_authority": "Assistant Commissioner, Bengaluru North Sub-Division",
+    "appeal_reason": "Application pending beyond 21 working days without communication or reasonable cause"
+  }
+}

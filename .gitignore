@@ -1,0 +1,45 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite
+*.sqlite3
+*.db
+backend/jan_setu.db
+jan_setu.db
+.pytest_cache/
+
+# Uploaded documents and temporary files (Privacy & Security)
+temp_uploads/
+backend/temp_uploads/
+*.pdf
+*.jpg
+*.jpeg
+*.png
+!frontend/src/assets/*
+!backend/app/data/samples/*
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.eslintcache
+.stylelintcache
+
+# Logs & OS files
+*.log
+npm-debug.log*
+yarn-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
